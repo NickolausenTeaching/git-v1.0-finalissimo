@@ -28,6 +28,10 @@ A cura di Luca Casadei, Nicholas Magi
 e con il prezioso contributo di Luca Pulga
 </small>
 
+<br/>
+
+{{% pdf %}}
+
 ---
 
 {{% section %}}
