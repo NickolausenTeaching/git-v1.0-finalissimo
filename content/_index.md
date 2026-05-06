@@ -255,9 +255,6 @@ Noi approfondiamo questo!
   <img class="exclude card-img-top w-50 mx-auto" src="https://duckduckgo.com/i/23196d99ae092af9.png" alt="Card image cap">
   <div class="card-body d-flex flex-column">
     <strong>GNU Bazaar</strong>
-    <p class="card-text">
-        Sistema molto robusto utilizzato nelle aziende enterprise. Funzionalità avanzate per ambienti di sviluppo complessi.
-    </p>
     <small class="mt-3">
         <a href="https://documentation.help/Bazaar-help/tutorial.html">
         Scopri di più [Documentazione]
