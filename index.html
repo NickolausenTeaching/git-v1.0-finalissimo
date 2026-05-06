@@ -9,11 +9,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <link rel="stylesheet" href="./reveal-js/dist/reset.css">
 <link rel="stylesheet" href="./reveal-js/dist/reveal.css">
-  <link rel="stylesheet" href="./css/custom-theme.min.f3fb311c0104f7e1a61c45c66ea901f79c0c529a4b1ae92b375c8de3da75e107.css" id="theme"><link rel="stylesheet" href="./highlight-js/default.min.css">
+  <link rel="stylesheet" href="./css/custom-theme.min.7a53c8c4a2751f6ab26a89b797d987c661d546771659a597e2bfc09859f2d9aa.css" id="theme"><link rel="stylesheet" href="./highlight-js/default.min.css">
 <link href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.8/dist/brite/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
 <link href="https://cdn.jsdelivr.net/gh/DanySK/css-blur-animation/blur.css" rel="stylesheet" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 
-<script src="https://kit.fontawesome.com/81ac037be0.js" crossorigin="anonymous"></script>
 <script type="text/javascript" src="https://unpkg.com/qr-code-styling@1.5.0/lib/qr-code-styling.js"></script>
   </head>
   <body>
@@ -29,6 +29,9 @@
 <p>or <del>"<strong>g</strong>oddamn <strong>i</strong>diotic <strong>t</strong>ruckload of sh*t"</del></p>
 </small>
 <p>A cura di Luca Casadei, Nicholas Magi</p>
+<small>
+e con il prezioso contributo di Luca Pulga
+</small>
 </section><section>
 
 
@@ -54,7 +57,7 @@
 </div></div>
 </div>
 </section><section>
-<h2 id="benefici-chiave">Benefici chiave</h2>
+<h2 id="benefici-principali">Benefici principali</h2>
 
 
 <span class="fragment "><h3 id="1-tracciabilità-completa"><strong>#1. Tracciabilità completa</strong></h3>
@@ -65,14 +68,14 @@
 
 
 <span class="fragment "><h3 id="2-ripristino-semplice"><strong>#2. Ripristino semplice</strong></h3>
-<p>È possibile tornare a versioni precedenti del mio progetto senza danni collaterali.</p>
+<p>È possibile tornare a versioni precedenti del progetto senza causare danni collaterali.</p>
 </span>
 
 
 
 
-<span class="fragment "><h3 id="3-collaborazione-sicura"><strong>#3. Collaborazione sicura</strong></h3>
-<p>Possibilità a membri del team di lavorare su ramificazioni diverse del progetto, in modo da evitare sovrapposizioni e da suddividere agilmente i compiti.</p>
+<span class="fragment "><h3 id="3-collaborazione-agevolata"><strong>#3. Collaborazione agevolata</strong></h3>
+<p>I membri del team possono lavorare su ramificazioni diverse del progetto, così da evitare sovrapposizioni e da suddividere agilmente i compiti.</p>
 </span>
 
 
@@ -81,12 +84,189 @@
 
 <div class="container-fluid m-0 p-0">
     <div class="row "><div class="col "><h3 id="centralizzato">Centralizzato</h3>
+<p>[Centralized Versioning Control System]</p>
 </div>
 <div class="col "><h3 id="distribuito">Distribuito</h3>
+<p>[Distributed Versioning Control System]</p>
 </div>
 </div>
 </div>
-<img class="w-50 exclude" src="imgs/centralized-vs-distributed.png"></section>
+<img class="w-50 exclude" src="imgs/centralized-vs-distributed.png">
+</section><section>
+
+
+<section data-shortcode-section="">
+<h2 id="cvcs"><strong>CVCS</strong></h2>
+<h3 id="centralized-versioning-control-system"><strong>C</strong>entralized <strong>V</strong>ersioning <strong>C</strong>ontrol <strong>S</strong>ystem</h3>
+<p>Esiste un <strong>unico progetto centrale</strong>, e ogni sviluppatore lavora su una copia dell’ultima versione del codice.</p>
+</section><section>
+<table>
+  <thead>
+      <tr>
+          <th><strong><u>Caratteristica</u></strong></th>
+          <th style="text-align: left"><strong><u>Descrizione</u></strong></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Progetto centrale</strong></td>
+          <td style="text-align: left">Tutti i file di un progetto sono salvati in una località centralizzata.</td>
+      </tr>
+      <tr>
+          <td><strong>Storico delle versioni</strong></td>
+          <td style="text-align: left">Lo storico delle versioni del progetto è centrale (vive insieme al progetto).</td>
+      </tr>
+      <tr>
+          <td><strong>Collaborazione in tempo reale</strong></td>
+          <td style="text-align: left">Gli sviluppatori lavorano sulla stessa codebase, accedendo alla stessa versione del progetto e ricevendo gli stessi aggiornamenti dai colleghi.</td>
+      </tr>
+      <tr>
+          <td><strong>Installazione semplice</strong></td>
+          <td style="text-align: left">I CVCS sono relativamente semplici da installare e inizializzare.</td>
+      </tr>
+  </tbody>
+</table>
+</section><section>
+<h3 id="cvcs-popolari">CVCS Popolari</h3>
+<div class="container-fluid m-0 p-0">
+    <div class="row "><div class="col "><div class="card p-5">
+  <img class="exclude card-img-top" src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.yolinux.com%2FTUTORIALS%2Fimages%2FtkCVS-Browse.png&amp;f=1&amp;nofb=1&amp;ipt=215528fab5d306e483e0896d8cb10657aae4d9022d4f707d6dfafc916f88686a" alt="Card image cap">
+  <div class="card-body d-flex flex-column">
+    <strong>Concurrent Versions System</strong>
+    <p class="card-text">
+        Sviluppato negli anni '80, ancora in utilizzo. Presenta alcune limitazioni critiche, risolte da sistemi sviluppati successivamente.
+    </p>
+    <small class="mt-3">
+       <a href="https://web.archive.org/web/20140709051732/http://ximbiot.com/cvs/manual/"> 
+       Scopri di più [Documentazione ufficiale] 
+       </a>
+    </small>
+  </div>
+</div>
+</div>
+<div class="col "><div class="card p-5">
+  <img class="exclude card-img-top" src="https://subversion.apache.org/images/svn-name-banner.svg" alt="Card image cap">
+  <div class="card-body d-flex flex-column">
+    <strong>Apache Subversion</strong>
+    <p class="card-text">
+        Creato per risolvere le criticità di CVS. Server centralizzato, deve essere mantenuta una connessione costante per poter lavorare. 
+    </p>
+    <small class="mt-3">
+        <a href="https://subversion.apache.org/">
+        Scopri di più [Documentazione ufficiale]
+        </a>
+    </small>
+  </div>
+</div>
+</div>
+<div class="col "><div class="card p-5">
+  <img class="exclude card-img-top" src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fpngimg.com%2Fuploads%2Fibm%2Fibm_PNG19658.png&amp;f=1&amp;nofb=1&amp;ipt=94b9b5d5e7e6af83e3b0c72316b8ca09124cacbd0a1c738be28d97c11a217934" alt="Card image cap">
+  <div class="card-body d-flex flex-column">
+    <strong>IBM Rational ClearCase</strong>
+    <p class="card-text">
+        Sistema molto robusto utilizzato nelle aziende enterprise. Funzionalità avanzate per ambienti di sviluppo complessi.
+    </p>
+    <small class="mt-3">
+        <a href="https://www.ibm.com/docs/en/clearcase">
+        Scopri di più [Documentazione ufficiale]
+        </a>
+    </small>
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+</section>
+</section><section>
+
+
+<section data-shortcode-section="">
+<h2 id="dvcs"><strong>DVCS</strong></h2>
+<h3 id="decentralized-versioning-control-system"><strong>D</strong>ecentralized <strong>V</strong>ersioning <strong>C</strong>ontrol <strong>S</strong>ystem</h3>
+<p>Ogni sviluppatore lavora su una <strong>copia del progetto</strong> di riferimento, disponendo sul proprio dispositivo di tutto lo storico delle modifiche di quest’ultimo.</p>
+</section><section>
+<table>
+  <thead>
+      <tr>
+          <th><strong><u>Caratteristica</u></strong></th>
+          <th style="text-align: left"><strong><u>Descrizione</u></strong></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Progetti completamente locali</strong></td>
+          <td style="text-align: left">Tutti i file di un progetto sono salvati in locale. Possibilità di lavorare offline.</td>
+      </tr>
+      <tr>
+          <td><strong>Diramazioni dello sviluppo</strong></td>
+          <td style="text-align: left">I DVCS facilitano la diramazione dello sviluppo, permettendo di lavorare in maniera isolata su una funzionalità per poi riconciliarla con la codebase principale.</td>
+      </tr>
+      <tr>
+          <td><i class="bi bi-ban" style="color: red;"></i> <strong>Nessun <em>Single Point Of Failure</em></strong></td>
+          <td style="text-align: left">Se il progetto centrale dovesse essere perso, lo si può facilmente ricostruire partendo dalle copie a disposizione di chi ci stava lavorando.</td>
+      </tr>
+      <tr>
+          <td><strong>Collaborazione</strong></td>
+          <td style="text-align: left">I DVCS permettono, attraverso un meccanismo di <em>pull/push</em> (vedremo tra poco), una collaborazione “decentralizzata”.</td>
+      </tr>
+  </tbody>
+</table>
+</section><section>
+<h3 id="dvcs-popolari">DVCS Popolari</h3>
+<div class="container-fluid m-0 p-0">
+    <div class="row "><div class="col "><div class="card p-5">
+  <img class="exclude card-img-top w-50 mx-auto" src="https://www.mercurial-scm.org/_static/logo-square-dark.svg" alt="Card image cap">
+  <div class="card-body d-flex flex-column">
+    <strong>Mercurial</strong>
+    <small class="mt-3">
+       <a href="https://www.mercurial-scm.org/"> 
+       Scopri di più [Documentazione ufficiale] 
+       </a>
+    </small>
+  </div>
+</div>
+</div>
+<div class="col "><div class="card p-5 border-warning">
+  <img class="exclude card-img-top w-50 mx-auto" src="https://git-scm.com/images/logo@2x.png" alt="Card image cap">
+  <div class="card-body d-flex flex-column">
+    <strong>Git</strong>
+    <p class="card-text">
+        Creato da Linus Torvalds (creatore del kernel Linux) in 5 giorni di sviluppo. Il DVCS più conosciuto e diffuso.
+    </p>
+    <small class="mt-3">
+        <a href="https://git-scm.com/">
+        Scopri di più [Documentazione ufficiale]
+        </a>
+    </small>
+  </div>
+</div>
+<br>
+<div class="callout tip">
+    <div class="callout-background py-4 px-5"><div class="callout-content"><p>Noi approfondiamo questo!</p>
+</div></div>
+</div>
+</div>
+<div class="col "><div class="card p-5">
+  <img class="exclude card-img-top w-50 mx-auto" src="https://duckduckgo.com/i/23196d99ae092af9.png" alt="Card image cap">
+  <div class="card-body d-flex flex-column">
+    <strong>GNU Bazaar</strong>
+    <p class="card-text">
+        Sistema molto robusto utilizzato nelle aziende enterprise. Funzionalità avanzate per ambienti di sviluppo complessi.
+    </p>
+    <small class="mt-3">
+        <a href="https://documentation.help/Bazaar-help/tutorial.html">
+        Scopri di più [Documentazione]
+        </a>
+    </small>
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+</section>
+</section>
 
   
 
