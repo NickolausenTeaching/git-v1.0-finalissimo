@@ -55,7 +55,7 @@ e con il prezioso contributo di Luca Pulga
 
 ---
 
-<img class="exclude" src="imgs/micky-mouse.png"/>
+<i style="font-size: 15rem" class="bi bi-emoji-dizzy-fill"></i>
 
 {{% /section %}}
 
