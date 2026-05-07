@@ -237,9 +237,6 @@ Ogni sviluppatore lavora su una **copia del progetto** di riferimento, disponend
   <img class="exclude card-img-top w-50 mx-auto" src="https://git-scm.com/images/logo@2x.png" alt="Card image cap">
   <div class="card-body d-flex flex-column">
     <strong>Git</strong>
-    <p class="card-text">
-        Creato da Linus Torvalds (creatore del kernel Linux) in 5 giorni di sviluppo. Il DVCS più conosciuto e diffuso.
-    </p>
     <small class="mt-3">
         <a href="https://git-scm.com/">
         Scopri di più [Documentazione ufficiale]
@@ -281,6 +278,37 @@ Noi approfondiamo questo!
 
 ---
 
+## <strong><i class="bi bi-git"></i></strong> **Git**
+
+{{% multicol %}}
+{{% col %}}
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.arstechnica.net%2Fwp-content%2Fuploads%2F2015%2F08%2FLinuxCon_Europe_Linus_Torvalds_05-2048x2048.jpg&f=1&nofb=1&ipt=750346aa0b0ac25ece9ab4b18a13b5613062d4b87d199a7d0ea009de3bb2ceed" class="w-75"/>
+
+<i class="display-3 bi bi-tux"></i>
+
+{{% /col %}}
+{{% col %}}
+
+- DVCS più **conosciuto** e **utilizzato**
+- Software **libero** e **open-source**
+- Sviluppato nell'arco di 2 settimane da **Linus Torvalds**.
+    - sviluppatore, tra le altre cose, del kernel **Linux**
+    - dopo un cambio di licenza sgradito di BitWarden, sistema precedentemente utilizzato per versionare Linux
+
+<br class="my-3">
+
+{{% callout title="Nice to know" %}}
+
+Il nome "*Git*" non è un acronimo! In inglese, è un "insulto leggero" che Torvalds usa per descrivere sé stesso.
+
+{{% /callout %}}
+
+{{% /col %}}
+{{% /multicol %}}
+
+---
+
 ## Tassonomia di Git
 
 {{% callout %}}
@@ -306,7 +334,9 @@ Nella tassonomia di Git, ci si riferisce a questa pratica con il termine "**comm
 {{% section %}}
 ## Storico di un progetto
 
-Stiamo lavorando su un progetto all'avanguardia: `PrimeSequence.kt`
+Stiamo lavorando su un progetto all'avanguardia: 
+
+### `PrimeSequence.kt`
 
 ---
 
@@ -324,7 +354,11 @@ Se volessimo lavorare in CLI, scriveremmo:
 <br/>
 {{% callout %}}
 
+<small>
+
 CLI $\rightarrow$ "Command Line Interface", *interfaccia a riga di comando*
+
+</small>
 
 {{% /callout %}}
 
