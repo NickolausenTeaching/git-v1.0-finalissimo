@@ -34,11 +34,10 @@ e con il prezioso contributo di Luca Pulga
 
 <br/>
 <br/>
-<br/>
 
 <small class="text-muted">
     <a href="https://creativecommons.org/licenses/by-sa/4.0/">
-    2026 © CC-BY-SA
+    Copyleft 2026 — CC-BY-SA
     </a>
 </small>
 
