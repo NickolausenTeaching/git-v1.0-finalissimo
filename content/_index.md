@@ -32,6 +32,16 @@ e con il prezioso contributo di Luca Pulga
 
 {{% pdf %}}
 
+<br/>
+<br/>
+<br/>
+
+<small class="text-muted">
+    <a href="https://creativecommons.org/licenses/by-sa/4.0/">
+    2026 © CC-BY-SA
+    </a>
+</small>
+
 ---
 
 {{% section %}}
@@ -285,7 +295,13 @@ Noi approfondiamo questo!
 {{% multicol %}}
 {{% col %}}
 
-<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.arstechnica.net%2Fwp-content%2Fuploads%2F2015%2F08%2FLinuxCon_Europe_Linus_Torvalds_05-2048x2048.jpg&f=1&nofb=1&ipt=750346aa0b0ac25ece9ab4b18a13b5613062d4b87d199a7d0ea009de3bb2ceed" class="w-75"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/01/LinuxCon_Europe_Linus_Torvalds_03_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" class="w-50"/>
+
+<small>
+
+Krd (photo)Von Sprat (crop/extraction), CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons
+
+</small>
 
 <i class="display-3 bi bi-tux"></i>
 
@@ -296,7 +312,7 @@ Noi approfondiamo questo!
 - Software **libero** e **open-source**
 - Sviluppato nell'arco di 2 settimane da **Linus Torvalds**.
     - sviluppatore, tra le altre cose, del kernel **Linux**
-    - dopo un cambio di licenza sgradito di BitWarden, sistema precedentemente utilizzato per versionare Linux
+    - dopo uno sgradito cambio di licenza di BitWarden, sistema precedentemente utilizzato per versionare Linux
 
 <br class="my-3">
 
