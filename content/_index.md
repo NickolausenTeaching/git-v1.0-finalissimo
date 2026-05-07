@@ -313,6 +313,8 @@ Il nome "*Git*" non è un acronimo! In inglese, è un "insulto leggero" che Torv
  
 Strumento che permette la collaborazione e la gestione di progetti di **tutte le dimensioni**.
 
+<br>
+
 ```mermaid
       gitGraph
         commit
