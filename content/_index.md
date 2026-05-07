@@ -278,6 +278,8 @@ Noi approfondiamo questo!
 
 ---
 
+{{% section %}}
+
 ## <strong><i class="bi bi-git"></i></strong> **Git**
 
 {{% multicol %}}
@@ -306,6 +308,61 @@ Il nome "*Git*" non è un acronimo! In inglese, è un "insulto leggero" che Torv
 
 {{% /col %}}
 {{% /multicol %}}
+
+---
+ 
+Strumento che permette la collaborazione e la gestione di progetti di **tutte le dimensioni**.
+
+```mermaid
+      gitGraph
+        commit
+        branch hotfix
+        checkout hotfix
+        commit
+        branch develop
+        checkout develop
+        commit id:"ash" tag:"abc"
+        branch featureB
+        checkout featureB
+        commit type:HIGHLIGHT
+        checkout main
+        checkout hotfix
+        commit type:NORMAL
+        checkout develop
+        commit type:REVERSE
+        checkout featureB
+        commit
+        checkout main
+        merge hotfix
+        checkout featureB
+        commit
+        checkout develop
+        branch featureA
+        commit
+        checkout develop
+        merge hotfix
+        checkout featureA
+        commit
+        checkout featureB
+        commit
+        checkout develop
+        merge featureA
+        branch release
+        checkout release
+        commit
+        checkout main
+        commit
+        checkout release
+        merge main
+        checkout develop
+        merge release
+```
+
+---
+
+## Cominciamo dalle **basi**
+
+{{% /section %}}
 
 ---
 

@@ -160,7 +160,8 @@ h5 {
 
 .reveal section img:not(.exclude) {
 	border-radius: 20px;
-	box-shadow: 5px 5px 25px rgb(100, 100, 100);
+	border: 5px solid black;
+	box-shadow: 7.5px 7.5px 0px rgb(15, 15, 15);
 }
 
 .reveal code:not(.nohighlight) {
