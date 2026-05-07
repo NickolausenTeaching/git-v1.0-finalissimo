@@ -249,6 +249,9 @@ Ogni sviluppatore lavora su una **copia del progetto** di riferimento, disponend
 </div>
 <br/>
 {{% callout type="tip" %}}
+
+$\uparrow$
+
 Noi approfondiamo questo!
 {{% /callout %}}
 
@@ -269,5 +272,98 @@ Noi approfondiamo questo!
 
 {{% /col %}}
 {{% /multicol %}}
+
+---
+
+## Da qui in poi iniziamo a parlare di **Git**.
+
+{{% /section %}}
+
+---
+
+## Tassonomia di Git
+
+{{% callout %}}
+
+Da ora in poi ci riferiamo al **progetto** su cui lavoriamo con il termine di **repository**. 
+
+{{% /callout %}}
+
+---
+
+Qualora, durante lo sviluppo di un progetto volessi salvarne lo stato, dovrei catturarne uno *snapshot*.
+
+<br>
+
+{{% callout %}}
+
+Nella tassonomia di Git, ci si riferisce a questa pratica con il termine "**commit**".
+
+{{% /callout %}}
+
+---
+
+{{% section %}}
+## Storico di un progetto
+
+Stiamo lavorando su un progetto all'avanguardia: `PrimeSequence.kt`
+
+---
+
+### Step 0: Creazione di una **repository**
+
+- Per poter permettere a `Git` di tracciare l'evoluzione di un progetto, occorre inizializzare la **repository** su cui andremo a lavorare.
+
+<br>
+
+{{% callout %}}
+Se volessimo lavorare in CLI, scriveremmo:
+`git init`
+{{% /callout %}}
+
+---
+
+```mermaid
+gitGraph
+   commit id: "Initial commit"
+```
+
+---
+
+```mermaid
+gitGraph
+   commit id: "Initial commit"
+   commit id: "First tests"
+```
+
+---
+
+```mermaid
+gitGraph
+   commit id: "Initial commit"
+   commit id: "First tests"
+   commit id: "Method `isPrime`..."
+```
+
+---
+
+```mermaid
+gitGraph
+   commit id: "Initial commit"
+   commit id: "First tests"
+   commit id: "Method `isPrime`..."
+   commit id: "..."
+```
+
+---
+
+```mermaid
+gitGraph
+   commit id: "Initial commit"
+   commit id: "First tests"
+   commit id: "Method `isPrime`..."
+   commit id: "..."
+   commit id: "Finished!" type: HIGHLIGHT
+```
 
 {{% /section %}}

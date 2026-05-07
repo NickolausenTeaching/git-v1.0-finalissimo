@@ -21,3 +21,12 @@ This repository is set to deploy automatically to GitHub Pages on every push via
 3. *On GitHub*, go to the repository page and make sure `Settings` > `Pages` (menu on the left) > `Build and deployment` > `Source` is set to `Deploy from a branch`. Choose `gh-pages` as branch (on the selection menu).
 
 4. Wait a little bit and, if you keep encounter error 404 at the GitHub Pages repository link, manually re-run the Action from the `Action` tab. 
+
+---
+
+## Obiettivi specifici in forma operativa dell'attività didattica
+
+- Lo studente è in grado di creare un remote sulla piattaforma `GitLab`.
+- Dato un file di testo in una cartella di lavoro, lo studente è in grado di creare un commit con le modifiche apportate al file.
+- Dato il commit precedentemente creato, lo studente è in grado di caricarlo sul remote da lui creato su `GitLab`.
+- [*eventualmente*] Dato un file di testo (con annesso storico di modifiche tracciate) in una cartella di lavoro, lo studente è in grado di tornare ad una versione precedente.
