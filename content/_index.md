@@ -109,17 +109,19 @@ I membri del team possono lavorare su ramificazioni diverse del progetto, così 
 {{% multicol %}}
 {{% col %}}
 ### Centralizzato
-[Centralized Versioning Control System]
+(Centralized Versioning Control System)
+
+<img class="w-50 exclude" src="imgs/centralized.png"/>
 
 {{% /col %}}
 {{% col %}}
 ### Distribuito
-[Distributed Versioning Control System]
+(Distributed Versioning Control System)
+
+<img class="w-50 exclude" src="imgs/distributed.png"/>
 
 {{% /col %}}
 {{% /multicol %}}
-
-<img class="w-50 exclude" src="imgs/centralized-vs-distributed.png"/>
 
 ---
 
