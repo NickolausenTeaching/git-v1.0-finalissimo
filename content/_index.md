@@ -321,6 +321,13 @@ Se volessimo lavorare in CLI, scriveremmo:
 `git init`
 {{% /callout %}}
 
+<br/>
+{{% callout %}}
+
+CLI $\rightarrow$ "Command Line Interface", *interfaccia a riga di comando*
+
+{{% /callout %}}
+
 ---
 
 ```mermaid
