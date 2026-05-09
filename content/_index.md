@@ -149,7 +149,7 @@ Esiste un **unico progetto centrale**, e ogni sviluppatore lavora su una copia d
 {{% col %}}
 
 <div class="card p-5">
-  <img class="exclude card-img-top" src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.yolinux.com%2FTUTORIALS%2Fimages%2FtkCVS-Browse.png&f=1&nofb=1&ipt=215528fab5d306e483e0896d8cb10657aae4d9022d4f707d6dfafc916f88686a" alt="Card image cap">
+  <img class="exclude card-img-top" src="imgs/cvs.png" alt="Card image cap">
   <div class="card-body d-flex flex-column">
     <strong>Concurrent Versions System</strong>
     <p class="card-text">
@@ -167,7 +167,7 @@ Esiste un **unico progetto centrale**, e ogni sviluppatore lavora su una copia d
 {{% col %}}
 
 <div class="card p-5">
-  <img class="exclude card-img-top" src="https://subversion.apache.org/images/svn-name-banner.svg" alt="Card image cap">
+  <img class="exclude card-img-top" src="imgs/svn.png" alt="Card image cap">
   <div class="card-body d-flex flex-column">
     <strong>Apache Subversion</strong>
     <p class="card-text">
