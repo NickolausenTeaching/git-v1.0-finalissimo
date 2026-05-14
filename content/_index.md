@@ -395,15 +395,29 @@ Da ora in poi ci riferiamo al **progetto** su cui lavoriamo con il termine di **
 
 ---
 
+
 Qualora, durante lo sviluppo di un progetto volessi salvarne lo stato, dovrei catturarne uno *snapshot*.
 
 <br>
+
+{{% multicol %}}
+{{% col %}}
 
 {{% callout %}}
 
 Nella tassonomia di Git, ci si riferisce a questa pratica con il termine "**commit**".
 
 {{% /callout %}}
+
+{{% /col %}}
+
+{{% col %}}
+
+<img class="w-50" src="imgs/commit.png" />
+
+{{% /col %}}
+
+{{% /multicol %}}
 
 ---
 
@@ -484,6 +498,21 @@ gitGraph
 ```
 
 {{% /section %}}
+
+---
+
+{{% multicol %}}
+{{% col class="d-flex align-items-center justify-content-center" %}}
+
+## Remote
+
+{{% /col %}}
+{{% col %}}
+
+![](imgs/remote.png)
+
+{{% /col %}}
+{{% /multicol %}}
 
 ---
 
