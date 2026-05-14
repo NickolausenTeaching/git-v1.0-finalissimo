@@ -484,3 +484,7 @@ gitGraph
 ```
 
 {{% /section %}}
+
+---
+
+### Step 1: Creazione di un remote
