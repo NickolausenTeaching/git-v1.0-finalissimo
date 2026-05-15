@@ -421,7 +421,6 @@ Nella tassonomia di Git, ci si riferisce a questa pratica con il termine "**comm
 
 ---
 
-{{% section %}}
 ## Storico di un progetto
 
 Stiamo lavorando su un progetto all'avanguardia: 
@@ -430,6 +429,7 @@ Stiamo lavorando su un progetto all'avanguardia:
 
 ---
 
+{{% section %}}
 ### Step 0: Creazione di una **repository**
 
 - Per poter permettere a `Git` di tracciare l'evoluzione di un progetto, occorre inizializzare la **repository** su cui andremo a lavorare.
@@ -502,9 +502,13 @@ gitGraph
 ---
 
 {{% multicol %}}
-{{% col class="d-flex align-items-center justify-content-center" %}}
+{{% col class="d-flex flex-column align-items-center justify-content-center" %}}
 
 ## Remote
+
+{{% callout type="cite" src="Risposta di Nouflam Ibrahim, stackoverflow.com" srcLink="https://stackoverflow.com/questions/5617211/what-is-git-remote-add-and-git-push-origin-master/5617350#5617350" %}}
+To communicate with the outside world, Git uses what are called "**remotes**". These are repositories other than the one on your local disk which you can push your changes into (so that other people can see them) or pull from (so that you can get others changes)
+{{% /callout %}}
 
 {{% /col %}}
 {{% col %}}
@@ -516,4 +520,85 @@ gitGraph
 
 ---
 
+{{% section %}}
 ### Step 1: Creazione di un remote
+
+{{% callout %}}
+<strong><i class="bi bi-gitlab"></i></strong> Utilizzeremo **GitLab**.
+{{% /callout %}}
+
+---
+
+![GitLab Home](imgs/gitlab-home.png)
+
+1. Andiamo su [**biagio.ispascalcomandini.it/gitlab/**]()
+
+---
+
+![New Repo option](imgs/new-repo-menu.png)
+
+<br/> 
+
+2. Clicchiamo su "**New project/repository**"
+
+---
+
+![New Project Page](imgs/new-project-page.png)
+
+3. Inseriamo i dati della nostra repository (qui chiamata "**Project**")
+
+---
+
+![New Project Created](imgs/new-project-created.png)
+
+4. Abbiamo creato il **remote**!
+
+{{% /section %}}
+
+---
+
+### Step 2: Collegamento del remote al repository locale
+
+```mermaid
+flowchart RL
+
+subgraph somesite.com/repo.git
+  direction RL
+  HEAD{{"HEAD"}}
+  master(master)
+  serverless(feat/serverless)
+
+  C10([10]) --> C9([9]) --> C8([8]) --> C7([7]) --> C6([6]) --> C5([5]) --> C4([4]) --> C3([3]) --> C2([2]) --> C1([1])
+  C12([12]) --> C11([11]) --> C7
+
+  master -.-> C10
+  serverless -.-> C12
+
+  HEAD -.-> C10
+  HEAD --"fas:fa-link"--o master
+end
+
+subgraph local
+  direction RL
+  origin[(origin)]
+
+  HEADL{{"HEAD"}}
+  masterl(master)
+
+  CL10([10]) --> CL9([9]) --> CL8([8]) --> CL7([7]) --> CL6([6]) --> CL5([5]) --> CL4([4]) --> CL3([3]) --> CL2([2]) --> CL1([1])
+
+  masterl -.-> CL10
+  masterl ==o master
+
+  HEADL -.-> CL10
+  HEADL --"fas:fa-link"--o masterl
+end
+
+origin ==o somesite.com/repo.git
+
+class local,somesite.com/repo.git repo;
+class origin remote;
+class HEAD,HEADL head;
+class master,masterl,bug22,serverless branch;
+class C1,C2,C3,C4,C5,C6,C7,C8,C9,C10,C11,C12,C13,CL1,CL2,CL3,CL4,CL5,CL6,CL7,CL8,CL9,CL10,CL11,CL12,CL13 commit;
+```
