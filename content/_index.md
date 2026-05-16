@@ -383,7 +383,7 @@ Strumento che permette la collaborazione e la gestione di progetti di **tutte le
 
 ---
 
-## Cominciamo dalle **basi**
+## Cominciamo dalle **basi**.
 
 {{% /section %}}
 
