@@ -245,7 +245,11 @@ Ogni sviluppatore lavora su una **copia del progetto** di riferimento, disponend
 {{% col %}}
 
 <div class="card p-5 border-warning">
-  <img class="exclude card-img-top w-50 mx-auto" src="https://git-scm.com/images/logo@2x.png" alt="Card image cap">
+  <img class="exclude card-img-top w-50 mx-auto mb-5" src="imgs/git.svg" alt="Card image cap">
+  <small>
+    Jason Long, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons
+  </small>
+  
   <div class="card-body d-flex flex-column">
     <strong>Git</strong>
     <small class="mt-3">
@@ -267,7 +271,7 @@ Noi approfondiamo questo!
 {{% col %}}
 
 <div class="card p-5">
-  <img class="exclude card-img-top w-50 mx-auto" src="https://duckduckgo.com/i/23196d99ae092af9.png" alt="Card image cap">
+  <img class="exclude card-img-top w-50 mx-auto" src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Bazaar-passo-2_-_Copia.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" alt="Card image cap">
   <div class="card-body d-flex flex-column">
     <strong>GNU Bazaar</strong>
     <small class="mt-3">
