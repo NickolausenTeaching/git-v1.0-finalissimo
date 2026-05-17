@@ -230,7 +230,7 @@ Ogni sviluppatore lavora su una **copia del progetto** di riferimento, disponend
 {{% col %}}
 
 <div class="card p-5">
-  <img class="exclude card-img-top w-50 mx-auto" src="https://www.mercurial-scm.org/_static/logo-square-dark.svg" alt="Card image cap">
+  <img class="exclude card-img-top w-50 mx-auto" src="imgs/mercurial.png" alt="Card image cap">
   <div class="card-body d-flex flex-column">
     <strong>Mercurial</strong>
     <small class="mt-3">
@@ -271,7 +271,7 @@ Noi approfondiamo questo!
 {{% col %}}
 
 <div class="card p-5">
-  <img class="exclude card-img-top w-50 mx-auto" src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Bazaar-passo-2_-_Copia.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" alt="Card image cap">
+  <img class="exclude card-img-top w-50 mx-auto" src="imgs/gnu-bazaar.png" alt="Card image cap">
   <div class="card-body d-flex flex-column">
     <strong>GNU Bazaar</strong>
     <small class="mt-3">
