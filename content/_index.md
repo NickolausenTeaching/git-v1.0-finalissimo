@@ -317,7 +317,7 @@ Krd (photo)Von Sprat (crop/extraction), CC BY-SA 3.0 <https://creativecommons.or
 - Software **libero** e **open-source**
 - Sviluppato nell'arco di 2 settimane da **Linus Torvalds**.
     - sviluppatore, tra le altre cose, del kernel **Linux**
-    - dopo uno sgradito cambio di licenza di BitWarden, sistema precedentemente utilizzato per versionare Linux
+    - dopo uno sgradito cambio di licenza di BitKeeper, sistema precedentemente utilizzato per versionare Linux
 
 <br class="my-3">
 
